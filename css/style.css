@@ -14,6 +14,9 @@ ul li{
     padding: 0 18px;
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 ul li a{
     text-decoration: none;
 }
@@ -105,6 +108,7 @@ header, main, footer{
 
 /* company-logo styles */
 .company-logo{
+    margin-bottom: 100px;
     border-top: 1px solid #AAAAAA;
     border-bottom: 1px solid #AAAAAA;
 }
@@ -178,6 +182,9 @@ header, main, footer{
     }
 
     /* banner styles */
+    .banner{
+        margin-bottom: 0px;
+    }
     .banner-text{
         width: 500px;
         padding: 0 20px;
@@ -191,6 +198,14 @@ header, main, footer{
     .banner-circle img{
         width: 100%;
         height: 380px;
+    }
+
+    /* company-logo styles */
+    .company-logo{
+        padding: 0 5px;
+    }
+    .company-logo img{
+        padding: 20px 18px;
     }
     
 }
